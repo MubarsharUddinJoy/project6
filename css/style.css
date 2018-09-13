@@ -1,25 +1,45 @@
 .header{
-	border: 2px solid brown;
-    overflow: hidden;
-    min-height:100px; 
+	border: 2px solid black;
+	/*min-height: 50px;*/
+	overflow: hidden;
+}
+.logo{
+	border: 1px solid black;
+	width: 20%;
+	min-height: 50px;
+	float: left;
+}
+.navigation{
+	border: 1px solid black;
+	width: 60%;
+	float: right;
+	min-height: 50px;
 }
 .banner{
-	border:2px solid brown;
-	width: 65%;
-	min-height: 200px;
-	float: right;
+	border: 2px solid black;
+	min-height: 150px;
 	overflow: hidden;
 }
-.row{
-	border: 2px solid brown;
-	width: 65%;
-	min-height: 300px;
-	float: right;
+.intro_text{
+	border: 2px solid black;
+	min-height: 100px;
 	overflow: hidden;
+}
+.boxes{
+	border: 2px solid black;
+	min-height: 300px;
+	overflow: hidden;
+}
+.box1{
+	border: 1px solid black;
+	min-height: 280px;
+	float: left;
+	width: 30%;
+	margin:1.5%;
+    
 }
 .footer{
-	border: 2px solid brown;
-	min-height: 50px;
-	width: 100%;
+	border: 2px solid black;
+	min-height: 40px;
 	overflow: hidden;
 }
