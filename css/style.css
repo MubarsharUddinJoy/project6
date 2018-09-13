@@ -1,74 +1,48 @@
 .header{
-	/*background-color:rgb(135, 283, 182);*/
-	border:5px solid #87cbb6;
-	min-height: 100px;
-	margin-bottom: 10px;
+	border: 2px solid black;
+	min-height: 80px;
+	background-color: lightgray;
+	overflow: hidden;
 }
 .banner{
-	/*background-color:#3cb371;*/
-	border: 5px solid #3cb371;
+    border: 2px solid black;
 	min-height: 200px;
-	margin-bottom: 10px;
+	background-color: blue;
+	overflow: hidden;
 }
-.service{
-	
-	border: 5px solid #3cb371;
-	min-height: 20px;
-	margin-bottom: 10px;
-
-	overflow:hidden;
-}
-.serve{
-	
-	background-color:#87cbb6;
-	border:2px solid #ff0000;
-	min-height: 180px;
-    width: 11%;
-	float: left;
-	margin-left:8.5px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-
+.services{
+    border: 2px solid green;
+    min-height: 200px;
+    padding: 50px;
+    overflow: hidden;
 }
 .service1{
-	width:30%;
+    border: 1px solid green;
+    width: 30%;
+    min-height: 180px;
+    float:left;
+    margin-left: 10px;
+    overflow: hidden;
 }
-.service2{
-	width:35%;
+.side_bar{
+	border: 2px solid black;
+	/*min-height: 200px;*/
+	overflow: hidden;
 }
-.service3{
-	width:30%;
-}
-.banners{
-	background-color:red;
-	border:5px solid #3cb371;
+.class1{
+	border: 2px solid orange;
+	width: 30%;
 	min-height: 200px;
-	margin-bottom: 10px;
-	clear:both;
+	float: left;
 }
+.class2{
+	border: 2px solid orange;
+	width: 69%;
+	min-height: 200px;
+	float: left;
+}
+
 .footer{
-	background-color:blue;
-	border:5px solid #3cb371;
-	min-height: 200px;
-	margin-bottom: 10px;
-	overflow:hidden;
-}
-.serve{
-	
-	background-color:#87cbb6;
-	border:2px solid #ff0000;
-	min-height: 180px;
-	width:12.5%;
-	float:left;
-	margin-left: 15%
-	
-}
-.footer1{
-	width:70%
-
-	
-}
-.footer2{
-	width:70%;
-
+	border: 2px solid green;
+    min-height: 50px;
 }
