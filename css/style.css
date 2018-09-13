@@ -1,48 +1,38 @@
 .header{
-	border: 2px solid black;
-	min-height: 80px;
-	background-color: lightgray;
-	overflow: hidden;
+	border: 2px solid violet;
+    overflow: hidden;
+}
+.logo{
+	border: 1px solid violet;
+	min-height: 75px;
+}
+.navigation{
+	border: 1px solid violet;
+	min-height: 50px;
 }
 .banner{
-    border: 2px solid black;
+	border: 2px solid violet;
 	min-height: 200px;
-	background-color: blue;
 	overflow: hidden;
 }
-.services{
-    border: 2px solid green;
-    min-height: 200px;
-    padding: 50px;
-    overflow: hidden;
-}
-.service1{
-    border: 1px solid green;
-    width: 30%;
-    min-height: 180px;
-    float:left;
-    margin-left: 10px;
-    overflow: hidden;
-}
-.side_bar{
-	border: 2px solid black;
-	/*min-height: 200px;*/
+.row{
+	border: 2px solid violet;
+	/*min-height: 350px;*/
 	overflow: hidden;
 }
-.class1{
-	border: 2px solid orange;
-	width: 30%;
-	min-height: 200px;
-	float: left;
+.box1{
+	border: 1px solid violet;
+	width: 29%;
+	min-height: 350px;
+    float: left;
 }
-.class2{
-	border: 2px solid orange;
-	width: 69%;
-	min-height: 200px;
-	float: left;
+.box2{
+	border: 1px solid violet;
+	width: 70%;
+	min-height: 350px;
+    float:right;
 }
-
 .footer{
-	border: 2px solid green;
-    min-height: 50px;
+	border: 3px solid violet;
+	min-height: 50px;
 }
