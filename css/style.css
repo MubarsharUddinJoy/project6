@@ -1,38 +1,25 @@
 .header{
-	border: 2px solid violet;
+	border: 2px solid brown;
     overflow: hidden;
-}
-.logo{
-	border: 1px solid violet;
-	min-height: 75px;
-}
-.navigation{
-	border: 1px solid violet;
-	min-height: 50px;
+    min-height:100px; 
 }
 .banner{
-	border: 2px solid violet;
+	border:2px solid brown;
+	width: 65%;
 	min-height: 200px;
+	float: right;
 	overflow: hidden;
 }
 .row{
-	border: 2px solid violet;
-	/*min-height: 350px;*/
+	border: 2px solid brown;
+	width: 65%;
+	min-height: 300px;
+	float: right;
 	overflow: hidden;
 }
-.box1{
-	border: 1px solid violet;
-	width: 29%;
-	min-height: 350px;
-    float: left;
-}
-.box2{
-	border: 1px solid violet;
-	width: 70%;
-	min-height: 350px;
-    float:right;
-}
 .footer{
-	border: 3px solid violet;
+	border: 2px solid brown;
 	min-height: 50px;
+	width: 100%;
+	overflow: hidden;
 }
